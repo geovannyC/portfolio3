@@ -1,0 +1,39 @@
+@import "../../../index.module.scss";
+.containerSkill{
+  display: grid;
+  @include xl{
+
+    grid-template-columns: repeat(3, 1fr);
+  }
+  grid-template-columns: repeat(2, 1fr);
+  width: auto;
+}
+.skill{
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  @include xl{
+    padding: 2rem;
+  }
+  p{
+    padding-right: 0;
+    display: flex;
+    width: 100%;
+    @include xl{
+      width: auto;
+      padding-right: 1rem;
+    }
+
+    text-align: left;
+  }
+
+}
+.containerSkillRange {
+  min-width: 36px;
+  min-height: 36px;
+  @include xl{
+    width: 5vw;
+    height: 5vw;
+  }
+}

@@ -1,0 +1,18 @@
+@import "../index.module.scss";
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vw;
+  gap: 6%;
+  height: 100%;
+  @include xl {
+    margin-top: 2vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  >* {
+    margin-top: 1.2rem;
+  }
+}

@@ -1,0 +1,108 @@
+@import "../index.module.scss";
+
+.containerContact {
+  height: auto;
+  padding-bottom: 20vh;
+}
+
+.contactForm {
+  padding-top: 4rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+
+}
+
+.inputForm {
+  position: relative;
+  height: auto;
+  width: 60vw;
+  @include xl{
+    width: 50vw;
+
+  }
+  min-height: 1rem;
+}
+.buttonSend{
+  cursor: pointer;
+  width: 4rem;
+  padding: 0.5rem;
+  color: $dark-950;
+  background-color: $akaroa-300;
+  &:hover{
+    color: $dark-950;
+    background-color: $akaroa-100;
+  }
+}
+.formField {
+  border: none;
+  border: 0;
+  border-bottom: 2px solid $akaroa-300;
+  outline: 0;
+  background: transparent;
+  z-index: 1;
+  transition: 0.2s;
+  color: $akaroa-100;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  width: 100%;
+
+  &:focus {
+    border-color: $akaroa-300;
+
+    ~.formLabel {
+      top: -1rem;
+
+      left: 0;
+      font-size: 0.9rem;
+      color: $akaroa-300;
+      letter-spacing: 0rem;
+
+    }
+  }
+
+
+  &::placeholder {
+    color: transparent;
+  }
+
+  &:not(:placeholder-shown)~.formLabel {
+    top: -1rem;
+
+    left: 0;
+    font-size: 0.9rem;
+    color: $akaroa-300;
+    letter-spacing: 0rem;
+
+  }
+}
+
+.formLabel {
+  z-index: 0;
+  top: 0rem;
+  left: 0rem;
+  position: absolute;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: $dark-300;
+  letter-spacing: 0.1rem;
+
+  &:required,
+  &:invalid {
+    box-shadow: none;
+  }
+}
+.containeResponse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: auto;
+  text-align: center;
+}

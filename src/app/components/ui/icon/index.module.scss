@@ -1,0 +1,31 @@
+@import "../../../index.module.scss";
+
+.icon {
+  width: 3vh;
+  height: 3vh;
+  color: $akaroa-200;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+
+  @include xl {
+    width: 2vw;
+    height: 2vw;
+  }
+
+  &:hover .tag {
+    top: -3.8vh;
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.tag {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transform: scale(0.3);
+  transition: 0.2s;
+}

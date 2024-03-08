@@ -1,0 +1,42 @@
+@import "../../index.module.scss";
+
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  @include margintop2;
+
+  :nth-child(odd) {
+    justify-content: center;
+
+    @include xl {
+      justify-content: flex-start;
+    }
+  }
+
+  :nth-child(even) {
+    justify-content: center;
+
+    @include xl {
+      justify-content: flex-end;
+    }
+  }
+
+  >* {
+    @include margintop2
+  }
+}
+
+.generalContainerCenter {
+  h2 {
+    text-align: center;
+  }
+}
+
+.gridContainer {
+  display: flex;
+  height: auto;
+
+
+  width: 100%;
+}

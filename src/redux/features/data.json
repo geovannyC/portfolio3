@@ -1,0 +1,186 @@
+{
+    "principalSkills": [
+        {
+            "id": 1,
+            "title": "Next",
+            "resume": "At least + 4 years of experience working with react, creating modules for different apps. Strong knowledge of react hooks, redux, formik, ajax."
+        },
+        {
+            "id": 2,
+            "title": "React Native",
+            "resume": "2 years of experience creating mobile applications, with strong knowledge in handling the hooks that react native offers us, as well as collaboration in the Banco General Rumiñahui project."
+        },
+        {
+            "id": 3,
+            "title": "CSS/SCSS/Animated View",
+            "resume": "Strong knowledge in the design and construction of visual models, with CSS and Sass for the web part and understanding of react native hooks, resulting in applications that don't depend on external style libraries"
+        }
+    ],
+    "social": [
+        {
+            "id": 1,
+            "text": "Linkedin",
+            "icon": {
+                "id": 1,
+                "library": "boxicons",
+                "tag": "Linkedin"
+            },
+            "link": "https://www.linkedin.com/in/geovanny-casagallo-53113221b/"
+        },
+        {
+            "id": 2,
+            "text": "Github",
+            "icon": {
+                "id": 1,
+                "library": "boxicons",
+                "tag": "Github"
+            },
+            "link": "https://github.com/geovannyC"
+        },
+        {
+            "id": 13,
+            "text": "SignalCode",
+            "icon": {
+                "id": 1,
+                "library": "boxicons",
+                "tag": "Codepen"
+            },
+            "link": "https://app.codesignal.com/profile/geovanny_qka"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Banco General Rumiñahui.",
+            "image": "HkKYhC2y/image.png",
+            "resume": "Developer in charge of creation of the mobile application for Banco General Rumiñahui, under the role of senior software developer I was responsible for providing solutions to the development requirements presented during the period from 2022 to 2023.",
+            "link": "https://play.google.com/store/apps/details?id=com.bgrbancaapp&hl=en_US&gl=US"
+        },
+        {
+            "id": 2,
+            "title": "Planex",
+            "image": "RhRsW4Fp/image.png",
+            "resume": "Design, creation, testing and deployment of the Planex visual catalog type application. Under the role of project leader, I was in charge of creating the final visual design of the app, as well as the development of its web application that runs under the NextJs framework, in which the knowledge in redux and account in mostly with visual structures built with SCSS.",
+            "link": "https://planexec.netlify.app/"
+        },
+        {
+            "id": 3,
+            "title": "Planet Express.Inc.EC.",
+            "image": "25GV9t1R/image.png",
+            "resume": "First version of the catalog for Planet Express, which is created under Redux and with a ScrumBan modular development architecture, as a senior developer I was responsible for the creation, testing and deployment of the application"
+        },
+        {
+            "id": 4,
+            "title": "F1 App",
+            "image": "FKCJsqNb/image.png",
+            "resume": "Development of the personal application for the f1 2021 contest, it has flows such as the registration and automated score assignment based on places, fast laps and penalties, all of this managed by React hooks, it has automated score reading by artificial intelligence for image reading, information transpilation and search engines capable of deciphering and cataloging drivers and lap times"
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "skill": "React Native",
+            "percent": 90
+        },
+        {
+            "id": 2,
+            "skill": "React",
+            "percent": 90
+        },
+        {
+            "id": 3,
+            "skill": "Redux",
+            "percent": 90
+        },
+        {
+            "id": 4,
+            "skill": "React Hooks",
+            "percent": 90
+        },
+        {
+            "id": 5,
+            "skill": "Angular",
+            "percent": 40
+        },
+        {
+            "id": 6,
+            "skill": "Css",
+            "percent": 80
+        },
+        {
+            "id": 7,
+            "skill": "Sass",
+            "percent": 80
+        },
+        {
+            "id": 8,
+            "skill": "React Native Elements",
+            "percent": 70
+        },
+        {
+            "id": 9,
+            "skill": "Docker",
+            "percent": 70
+        },
+        {
+            "id": 10,
+            "skill": "Jest",
+            "percent": 50
+        },
+        {
+            "id": 11,
+            "skill": "SuperTest",
+            "percent": 50
+        },
+        {
+            "id": 12,
+            "skill": "RTL",
+            "percent": 40
+        },
+        {
+            "id": 13,
+            "skill": "NodeJs",
+            "percent": 70
+        },
+        {
+            "id": 14,
+            "skill": "MongoDB",
+            "percent": 80
+        },
+        {
+            "id": 15,
+            "skill": "Postgres",
+            "percent": 50
+        },
+        {
+            "id": 16,
+            "skill": "MySQL",
+            "percent": 50
+        },
+        {
+            "id": 17,
+            "skill": "Google Cloud Platform",
+            "percent": 40
+        },
+        {
+            "id": 18,
+            "skill": "Azure",
+            "percent": 50
+        },
+        {
+            "id": 19,
+            "skill": "Git",
+            "percent": 80
+        },
+        {
+            "id": 20,
+            "skill": "GitLab",
+            "percent": 60
+        },
+        {
+            "id": 21,
+            "skill": "Figma",
+            "percent": 50
+        }
+    ]
+}

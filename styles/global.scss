@@ -1,0 +1,41 @@
+@import "../src/app/index.module.scss";
+
+$screen-sm-min: 0px;
+$screen-md-min: 800px;
+$screen-lg-min: 992px;
+$screen-xl-min: 1300px;
+$h1size: 102px;
+$h2size: 86px;
+$h3size: 66px;
+$h4size: 46px;
+$prsize: 32px;
+$plsize: 26px;
+$pelsize: 20px;
+$h1smallsize: 32px;
+$h2smallsize: 28px;
+$h3smallsize: 26px;
+$h4smallsize: 24px;
+$prsmallsize: 22px;
+$plsmallsize: 18px;
+$pelsmallsize: 14px;
+
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}

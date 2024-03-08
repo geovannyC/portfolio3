@@ -1,0 +1,18 @@
+@import "../../../index.module.scss";
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
+  align-items: center; 
+  position: absolute;
+  width: 5%;
+  height: 50%;
+  bottom: 25%;
+  gap: 5%;
+}
+
+.alignSocial {
+  width: 28px;
+  height: 28px;
+}
